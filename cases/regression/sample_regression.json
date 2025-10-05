@@ -1,0 +1,14 @@
+{
+  "cases": [
+    {
+      "name": "QueryExpect_scalar_total_customers",
+      "type": "query_expect",
+      "params": {
+        "conn_alias": "local_mysql",
+        "mode": "scalar",
+        "query": "SELECT COUNT(1) FROM dim_customers",
+        "expected": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+connections:
+  local_mysql:
+    url: mysql+pymysql://root:root@localhost:3306/etl_demo
+    schema: etl_demo

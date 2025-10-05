@@ -1,0 +1,5 @@
+
+connections:
+  local_sqlite:
+    url: sqlite:///instance/app.db
+    schema: null

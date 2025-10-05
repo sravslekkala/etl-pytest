@@ -1,0 +1,9 @@
+pytest==8.3.2
+SQLAlchemy==2.0.36
+pandas==2.3.0
+jsonschema==4.23.0
+# MySQL driver: prefer pure-Python for easy installs
+PyMySQL==1.1.1
+pyyaml
+dotenv
+cryptography

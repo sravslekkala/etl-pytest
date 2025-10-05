@@ -1,0 +1,20 @@
+{
+  "cases": [
+    {
+      "name": "RowCount_file_vs_dim_customers",
+      "type": "row_count",
+      "params": {
+        "source": {
+          "kind": "file",
+          "path": "customers.csv"
+        },
+        "target": {
+          "kind": "sql",
+          "conn_alias": "local_mysql",
+          "query": "SELECT * FROM dim_customers"
+        },
+        "tolerance_pct": 0
+      }
+    }
+  ]
+}
